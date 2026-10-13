@@ -1,0 +1,42 @@
+﻿
+样本 A (rpm=1748):
+  BPFO= 104.44Hz lead_max=   582.93 integrity=0.50 2xfr:-
+    x1跨通道: X236_DE_time:582.93 X236_FE_time:306.77 X236_BA_time:1315.20
+  BPFI= 157.76Hz lead_max=     1.82 integrity=0.00 2xfr:-
+    x1跨通道: X236_DE_time:  1.82 X236_FE_time:  0.33 X236_BA_time:  2.58
+  BSF=  68.66Hz lead_max=     2.78 integrity=0.00 2xfr:-
+    x1跨通道: X236_DE_time:  0.88 X236_FE_time:  0.49 X236_BA_time:  1.15
+  FTF=  11.60Hz lead_max=   358.61 integrity=0.75 2xfr:['x5@58.0Hz(223.7)']
+    x1跨通道: X236_DE_time: 14.63 X236_FE_time: 45.03 X236_BA_time: 57.36
+
+样本 B (rpm=1750):
+  BPFO= 104.56Hz lead_max=     0.71 integrity=0.00 2xfr:-
+    x1跨通道: X098_DE_time:  0.71 X099_DE_time:  1.11 X098_FE_time:  0.64 X099_FE_time:  1.06
+  BPFI= 157.94Hz lead_max=     0.43 integrity=0.00 2xfr:-
+    x1跨通道: X098_DE_time:  0.33 X099_DE_time:  0.64 X098_FE_time:  0.69 X099_FE_time:  0.47
+  BSF=  68.74Hz lead_max=     1.31 integrity=0.00 2xfr:-
+    x1跨通道: X098_DE_time:  0.33 X099_DE_time:  0.49 X098_FE_time:  0.51 X099_FE_time:  0.79
+  FTF=  11.62Hz lead_max=     9.83 integrity=0.00 2xfr:['x5@58.1Hz(9.8)']
+    x1跨通道: X098_DE_time:  0.99 X099_DE_time:  1.87 X098_FE_time:  0.93 X099_FE_time:  1.13
+
+样本 C (rpm=1752):
+  BPFO= 104.68Hz lead_max=     3.93 integrity=0.25 2xfr:-
+    x1跨通道: X211_DE_time:  3.93 X211_FE_time:  1.27 X211_BA_time:  7.50
+  BPFI= 158.12Hz lead_max=   290.12 integrity=0.50 2xfr:-
+    x1跨通道: X211_DE_time:290.12 X211_FE_time: 73.84 X211_BA_time:116.12
+  BSF=  68.82Hz lead_max=     0.52 integrity=0.00 2xfr:-
+    x1跨通道: X211_DE_time:  0.52 X211_FE_time:  0.47 X211_BA_time:  2.75
+  FTF=  11.63Hz lead_max=    93.46 integrity=0.75 2xfr:['x5@58.2Hz(93.5)']
+    x1跨通道: X211_DE_time: 37.27 X211_FE_time: 13.16 X211_BA_time: 53.17
+
+样本 D (rpm=1754):
+  BPFO= 104.80Hz lead_max=     7.98 integrity=0.25 2xfr:-
+    x1跨通道: X224_DE_time:  7.98 X224_FE_time:  0.41 X224_BA_time:  4.12
+  BPFI= 158.30Hz lead_max=     5.43 integrity=0.25 2xfr:-
+    x1跨通道: X224_DE_time:  5.43 X224_FE_time:  0.54 X224_BA_time:  0.31
+  BSF=  68.90Hz lead_max=     0.47 integrity=0.00 2xfr:-
+    x1跨通道: X224_DE_time:  0.47 X224_FE_time:  0.20 X224_BA_time:  8.13
+  FTF=  11.64Hz lead_max=    18.82 integrity=0.75 2xfr:['x5@58.2Hz(18.8)']
+    x1跨通道: X224_DE_time: 10.44 X224_FE_time:  1.74 X224_BA_time:  6.21
+
+已写入 results/final_diagnosis_data.json

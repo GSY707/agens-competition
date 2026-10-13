@@ -1,0 +1,44 @@
+{
+  "A": {
+    "status": "outer_race",
+    "confidence": 0.88,
+    "evidence": [
+      "BPFO (104.44 Hz) envelope lead 582.9 (DE) / 1315.2 (BA) / 306.8 (FE) - three-channel consistent, dominant feature",
+      "New finding: strong clean FTF harmonic column (4xFTF=46.4 Hz, DE ratio 358.6, away from 2xfr=58.27) - indicates cage involvement accompanying outer-race defect",
+      "BPFI and BSF (corrected 68.66 Hz) all below 2.8 - rules out inner-race and ball faults",
+      "Time-domain: DE kurtosis 23.2, crest 11.7, 20/20 segments above kurtosis threshold - strong intermittent impact across all channels"
+    ]
+  },
+  "B": {
+    "status": "normal",
+    "confidence": 0.85,
+    "evidence": [
+      "All four feature columns clean and below 1.3 across all four channels (X098/X099 DE/FE); no feature above the 10 fault threshold",
+      "The only slightly elevated FTF x5=9.8 identified as 2xfr shaft harmonic contamination, excluded; true FTF x1..x4 below 1.1",
+      "Time-domain near-Gaussian on all channels (kurtosis 2.87-2.93), 0/20 segments above threshold",
+      "ans=1 field in .mat as weak corroborating reference"
+    ]
+  },
+  "C": {
+    "status": "inner_race",
+    "confidence": 0.88,
+    "evidence": [
+      "BPFI (158.12 Hz) envelope lead 290.1 (DE) / 116.1 (BA) / 73.8 (FE) - three-channel consistent, dominant feature",
+      "New finding: strong clean FTF column (x1=37.3, 6xFTF=69.8 Hz ratio 36.5, away from 2xfr=58.40) - cage involvement accompanying inner-race defect",
+      "BPFO and BSF (corrected 68.82 Hz) all below 4 - rules out outer-race and ball faults",
+      "Adaptive search locks BPFI at 157.76 Hz @ rpm=1748 (ratio 1526), higher than recorded 1752 rpm - actual speed slightly below recorded",
+      "Time-domain DE kurtosis 8.06, weaker intermittent impact consistent with inner-race under 2 HP light load"
+    ]
+  },
+  "D": {
+    "status": "normal",
+    "confidence": 0.68,
+    "evidence": [
+      "No feature reaches the strong-column criterion (clean column integrity <0.5 or lead <10); BPFO x1=8.0 and FTF x1=10.4 sit at threshold edge but do not form stable columns",
+      "BSF (corrected 68.90 Hz) all harmonics below 0.5 - ball verified NORMAL; no BPFO+/-fr modulation sidebands; time-domain near-Gaussian (kurtosis 3.30/2.99/3.01), 0/20 segments above threshold",
+      "FE channel all feature ratios below 1 - strong negative evidence",
+      "2xfr=58.47 Hz contamination excluded from FTF x5 reading",
+      "If a weak fault existed, most likely early outer-race spalling (DE BPFO x1=8.0 most prominent, FE 0.41 absent) but evidence insufficient to assert it"
+    ]
+  }
+}
