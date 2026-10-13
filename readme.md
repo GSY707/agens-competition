@@ -65,8 +65,6 @@ AGH 使用界面及调用方式：WEB
 
 ## 八、演示视频
 
-视频文件：2026-10-13 16-35-12_1.mp4
-
-备用链接：2026-10-13 16-35-12_1.mp4
+视频文件：[2026-10-13 16-35-12_1.mp4](https://1drv.ms/v/c/a6886cec14d0be7d/IQAkLyhQYUClQ5TW_VmPVoShAdgLpcFqMgBVXWkw2gX4r-Y?e=gW3mMW)
 
 视频时长：3分01秒
